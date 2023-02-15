@@ -1,0 +1,65 @@
+.todo-user-input {
+    background-color: white;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.todo-form {
+    display: flex;
+    flex-direction: column;
+}
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.todos-container {
+    display: flex;
+    justify-content: space-around;
+}
+.todo-list-container {
+   min-width: 100px;
+   width: 100%;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0px 4px 14px 0px rgb(223, 218, 228);
+   padding: 10px;
+}
+.todo-inProgress {
+    background-color: rgb(221, 221, 124);
+}
+.todo-completed {
+    background-color: rgb(105, 192, 105);
+
+}
+.todo-initial {
+    background-color: rgb(158, 158, 210);
+}
+.todos {
+    background-color: #f4f4f5;
+    border-radius: 30px;
+}
